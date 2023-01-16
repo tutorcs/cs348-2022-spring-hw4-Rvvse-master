@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (modules main CFG constraint analyzer frontend)
+ (libraries str ocamlgraph cil))
